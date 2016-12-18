@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Practica IGM HTML5</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="main.js"></script>
+</head>
+<body onload="main()">
+    <header>
+        <h1>Puzle en vídeo</h1>
+    </header>
+    <section class="video-section">
+        <div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div><div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </section>
+    <video id="sourcevideo" style="display:none" autoplay loop>
+        <source src="videos/cat_in_the_sun.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- calibration image
+    <img id="sourcevideo" src="tablero-de-ajedrez_318-30285.jpg" width="960" height="540">-->
+    <footer>
+        <center>
+            <strong>Autor:</strong> Oscar Blanco Novoa &lt;<a href="mailto:o.blanco@udc.es">o.blanco@udc.es</a>&gt;<br />
+            Esta obra esta bajo licencia <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons</a>, el video utilizado es popiedad de <a href="https://www.flickr.com/photos/mattiamc/">MattiaMc</a> y tiene licencia <a href="https://creativecommons.org/licenses/by/3.0/">CREATIVE COMMONS 3.0</a>
+        </center>
+        <img style="margin-top:5px;" src="img/cc.png">
+    </footer>
+</body>
+</html>
+

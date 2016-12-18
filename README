@@ -1,0 +1,18 @@
+Página de ejemplo para la práctica de HTML5 de IGM 2016.
+
+Autor: Oscar Blanco novoa <o.blanco@udc.es>
+
+La página consiste en un puzle en el cual las piezas son fragmentos de un video en reproducción, el objetivo consiste en arrastrar cada pieza a su posición de forma que se pueda ver el vídeo completo.
+
+Elementos HTML5 utilizados:
+- Video
+- Canvas (añadidos dinámicamente desde js)
+- Drag and Drop
+- Transformaciones CSS3 en el título de la página (por usar algo más...)
+- Varias etiquetas para la construcción de la página como <header> <footer> o <section>
+
+Para la lógica de la aplicación se ha utilizado javascript sin ningún framework.
+
+El funcionamiento ha sido comprobado en Firefox 50.0.2 y Chrome 55.0.2883.75 (64-bit)
+
+El vídeo utilizado es propiedad de MattiaMc <https://www.flickr.com/photos/mattiamc/> y tiene licencia CREATIVE COMMONS 3.0 <https://creativecommons.org/licenses/by/3.0/>
